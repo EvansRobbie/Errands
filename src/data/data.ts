@@ -148,39 +148,39 @@ const frequentsQ ={
             answer: " An errand service is a company that provides assistance to people who are too busy to complete their errands themselves. Errands may include grocery shopping, package delivery, picking up dry cleaning, and other tasks that busy people may not have time for."
         },
         {
-            id:1,
+            id:2,
             question:"What is an errand service, and what kind of errands do you run?",
             answer: " An errand service is a company that provides assistance to people who are too busy to complete their errands themselves. Errands may include grocery shopping, package delivery, picking up dry cleaning, and other tasks that busy people may not have time for."
         },
         {
-            id:2,
+            id:3,
             question:"How much do your services cost?",
             answer: " The cost of our services depends on the type and complexity of the errand. We offer customized pricing plans for our clients based on their specific needs."
         },
         {
-            id:3,
+            id:4,
             question:"How do I schedule an errand?",
             answer: " You can schedule an errand by contacting us through phone, email, or our website. We will work with you to arrange a convenient time and date for the errand."
         },
         {
-            id:4,
+            id:5,
             question:"Do you offer same-day service?",
             answer: " Yes, we offer same-day service for most errands. However, we recommend contacting us in advance to ensure availability."
         },
         {
-            id:5,
+            id:6,
             question:"Are your employees insured and bonded?",
             answer: " Yes, all our employees are insured and bonded to protect you and your property during the errand"
 
             
         },
         {
-            id:6,
+            id:7,
             question:"What is your cancellation policy?",
             answer: "We have a flexible cancellation policy that allows you to cancel or reschedule an errand at no charge up to 24 hours before the scheduled time. If you cancel within 24 hours of the scheduled time, a cancellation fee may apply."
         },
         {
-            id:7,
+            id:8,
             question:"How do I pay for your services?",
             answer: "We accept various forms of payment, including cash, credit card, and online payment methods. Payment is typically due at the time of service, although we may offer billing options for regular clients."
         },

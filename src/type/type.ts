@@ -43,3 +43,12 @@ export interface ContactProp {
         link:string
     }[]
 }
+export interface FrequentQProps {
+    title: string
+    subtitle:string
+    questions:{
+        id:number
+        question: string
+        answer: string
+    }[]
+}
