@@ -1,6 +1,7 @@
 import './App.css'
 import About from './components/About'
 import Contacts from './components/Contacts'
+import Footer from './components/Footer'
 import Frequents from './components/Frequents'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
@@ -18,6 +19,7 @@ function App() {
     <Testimonials testimonials={testimonials}/>
     <Frequents frequentsQ ={frequentsQ}/>
     <Contacts contacts = {contacts}/>
+    <Footer/>
     </div>
   )
 }

@@ -9,7 +9,7 @@ type Hero = {
 const Hero = ({hero: {title, image, subtitle, text}}: Hero) => {
   // console.log(title)
   return (
-    <div id='hero' className='relative w-full h-screen  '>
+    <div id='home' className='relative w-full h-screen  '>
       <div className='absolute opacity-20 top-1/2 left-[30%] -translate-x-1/2 -translate-y-1/2 z-10 lg:opacity-100 w-full max-w-[600px] h-[70vh] '>
         <img className='w-full h-full bg-contain' src={image} alt="" />
       </div>
@@ -19,7 +19,7 @@ const Hero = ({hero: {title, image, subtitle, text}}: Hero) => {
         <h2 className='text-slate-200 capitalize font-Necko my-4 text-start max-w-[550px] w-full text-xl md:text-2xl'>{subtitle}</h2>
         <p className='max-w-[550px] text-slate-200 text-start fon text-base font-Raleway'>{text}</p>
       </div>
-      <div className='fixed flex justify-center items-center bottom-28 md:right-20 right-8 z-20'>
+      <div className='fixed flex justify-center items-center bottom-28 md:right-20 right-8 z-10'>
         <div className='w-[150px] md:w-[220px] h-auto  relative border-b border-orange-500 justify-center items-center rounded-full p-2 '>
           <img className='w-full h-full animate-spin-slow' src={circularImage} alt="" />
           <a className='text-slate-900 flex items-center justify-center w-14 h-14  md:w-20 md:h-20 border hover:bg-slate-950 hover:text-orange-500 font-semibold  rounded-full absolute top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2 bg-orange-500 duration-500 ease-in text-xs md:text-base' href="/">Send Me</a>      

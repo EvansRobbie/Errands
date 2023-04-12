@@ -31,7 +31,7 @@ const Frequents = ({frequentsQ:{title, subtitle, questions}}:Frequents) => {
         </div>
     )
   return (
-    <div className="container max-w-[1100px] my-16 ">
+    <div id="frequent" className="container max-w-[1100px] my-16 ">
         <h1>{title}</h1>
         <h3>{subtitle}</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

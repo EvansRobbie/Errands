@@ -8,6 +8,26 @@
   :root{
     @apply bg-slate-950 text-slate-200 scroll-smooth
   }
+  ::-webkit-scrollbar {
+    /* height: 0;
+    width: 10px; */
+    @apply w-[0.6rem] h-0
+  }
+  ::-webkit-scrollbar-track {
+    /* background-color: #f1f1f1; */
+    @apply bg-slate-200
+    
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-900 rounded-xl hover:bg-slate-900/60
+  
+  }
+  /* ::-webkit-scrollbar-thumb:hover {
+    @apply 
+  } */
+  /* ::-webkit-scrollbar-thumb:horizontal {
+    @apply w-0 h-0
+}  */
   h1{
     @apply text-4xl font-bold text-[#7EA14D] font-cursive underline underline-offset-4 pt-4 
   }
@@ -16,5 +36,8 @@
   }
   .container{
     @apply h-full w-full mx-auto shadow-md rounded-2xl shadow-slate-900 flex flex-col items-center py-4 justify-center
+  }
+  .mobile_li{
+    @apply text-lg hover:text-orange-600 hover:drop-shadow shadow-slate-950 uppercase font-cursive active:scale-105 font-bold transition-all ease-in duration-300
   }
 }
