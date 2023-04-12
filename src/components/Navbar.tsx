@@ -56,7 +56,7 @@ const Navbar = ({navbar:{links,socialIcons} }:Navbar) => {
       } w-full h-16 top-0 left-0 flex px-4  items-center justify-between opacity-100 z-50 duration-300 ease-in`}
     >
 
-                <nav className=' hidden md:flex items-center w-full justify-between'>
+                <nav className=' hidden md:flex items-center w-full justify-between gap-4'>
                     {navElements}
                 </nav>
                 <div
@@ -68,16 +68,16 @@ const Navbar = ({navbar:{links,socialIcons} }:Navbar) => {
                     transition= {{ loop: Infinity, duration: 1 }}
                     className='text-slate-900 font-bold text-xl flex items-start md:items-center w-ful  justify-center   w-12 p-2 rounded-full h-12 bg-slate-200'>FM</motion.p>
                 </div>
-                <div className='hidden md:flex items-center w-full justify-between'>
+                <div className='hidden lg:flex items-center w-full justify-between gap-2'>
                     {iconElements}
-                    <div className='flex items-center gap-4'>
+                    <div className='flex items-center gap-2'>
                         <BsTelephoneFill size={20}/>
-                    <span className='text-slate-200'>+254 704 563 123</span>
+                    <span className='text-slate-200 text-sm'>+254 704 563 123</span>
                     </div>
                     
                 </div>
                 <div onClick={handleNav} className='block md:hidden absolute top-0 right-0 opacity-100 z-50'>
-                {nav ? <RxCross2 size={30} className='m-2 text-slate-200 cursor-pointer'/> : <HiMenuAlt4 size={30} className='cursor-pointer'/> } 
+                {nav ? <RxCross2 size={30} className='m-2 text-slate-200 cursor-pointer'/> : <HiMenuAlt4 size={30} className='cursor-pointer m-2'/> } 
                 </div>
 
                 {/* Mobile Nav */}

@@ -9,7 +9,7 @@ export default {
       fontFamily:{
         Raleway: ['Raleway', 'cursive'],
         cursive: 'cursive',
-        Necko: ['Neko One', 'cursive']
+        Necko: ['Montserrat', 'cursive']
       },
       animation: {
         'spin-slow': 'spin 8s linear infinite',

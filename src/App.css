@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Raleway:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -38,6 +38,6 @@
     @apply h-full w-full mx-auto shadow-md rounded-2xl shadow-slate-900 flex flex-col items-center py-4 justify-center
   }
   .mobile_li{
-    @apply text-lg hover:text-orange-600 hover:drop-shadow shadow-slate-950 uppercase font-cursive active:scale-105 font-bold transition-all ease-in duration-300
+    @apply text-lg hover:text-orange-600 hover:drop-shadow shadow-slate-950 uppercase font-Necko active:scale-105 font-bold transition-all ease-in duration-300
   }
 }

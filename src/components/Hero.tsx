@@ -14,10 +14,10 @@ const Hero = ({hero: {title, image, subtitle, text}}: Hero) => {
         <img className='w-full h-full bg-contain' src={image} alt="" />
       </div>
       <div className='relative py-40 md:py-32 flex items-end justify-center  flex-col px-6 '>
-        <h2 className=' text-[#7EA14D] text-center w-full max-w-[800px] text-2xl md:text-4xl font-cursive font-extrabold'>{title}</h2>
-        <div className='absolute top-[40%] right-0 md:right-20  -translate-x-1/2 -translate-y-1/2 z-10 opacity-100 font-bold  text-orange-500 font-Raleway text-lg'>Rongai</div>
-        <h2 className='text-slate-200 capitalize font-Necko my-4 text-start max-w-[550px] w-full text-xl md:text-2xl'>{subtitle}</h2>
-        <p className='max-w-[550px] text-slate-200 text-start fon text-base font-Raleway'>{text}</p>
+        <h2 className=' text-[#7EA14D] md:text-center w-full max-w-[1100px] text-3xl md:text-4xl lg:text-6xl font-Necko font-extrabold duration-500 ease-in'>{title}</h2>
+        <div className='absolute top-[40%] right-0 md:right-20 lg:right-10 lg:top-[43%] xl:top-[40%] xl:right-20  -translate-x-1/2 -translate-y-1/2 z-10 opacity-100 font-bold  text-orange-500 font-Raleway text-lg'>Rongai</div>
+        <h2 className='text-slate-200 capitalize font-Necko my-4 text-start max-w-[600px] w-full text-xl md:text-2xl'>{subtitle}</h2>
+        <p className='max-w-[550px] text-slate-200 text-start  text-base font-Raleway'>{text}</p>
       </div>
       <div className='fixed flex justify-center items-center bottom-28 md:right-20 right-8 z-10'>
         <div className='w-[150px] md:w-[220px] h-auto  relative border-b border-orange-500 justify-center items-center rounded-full p-2 '>
