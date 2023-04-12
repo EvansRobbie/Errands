@@ -13,6 +13,9 @@ export default {
       },
       animation: {
         'spin-slow': 'spin 8s linear infinite',
+      },
+      backgroundImage:{
+        circular: 'repeating-radial-gradient(#f5f5f5 2px, rgb(31,41,55, 0.01) 5px, rgb(31,41,55, 0.01) 100px);'
       }
     },
   },

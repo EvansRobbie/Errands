@@ -6,6 +6,15 @@
 
 @layer base{
   :root{
-    @apply bg-slate-950 text-slate-200
+    @apply bg-slate-950 text-slate-200 scroll-smooth
+  }
+  h1{
+    @apply text-4xl font-bold text-[#7EA14D] font-cursive underline underline-offset-4 pt-4 
+  }
+  h3{
+    @apply text-orange-500 py-2 capitalize font-semibold
+  }
+  .container{
+    @apply h-full w-full mx-auto shadow-md rounded-2xl shadow-slate-900 flex flex-col items-center py-4 justify-center
   }
 }

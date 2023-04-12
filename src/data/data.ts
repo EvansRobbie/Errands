@@ -1,5 +1,51 @@
 import HeroBg from '../assets/herobg.png'
 import AboutImg from '../assets/about.png'
+import {FaWhatsapp, FaTwitter, FaInstagram, FaEnvelope,} from 'react-icons/fa'
+
+
+const navbar ={
+    links:[
+        {
+        id:'#home',
+        name: 'Home'
+    },
+    {
+        id:'#about',
+        name: 'about'
+    },
+    {
+        id:'#services',
+        name: 'services'
+    },
+    {
+        id:'#testimonials',
+        name: 'testimonials'
+    },
+    {
+        id:'#contacts',
+        name: 'contacts'
+    },
+],
+socialIcons:[
+    
+        {
+            id:1,
+            icon : FaWhatsapp,
+            link: 'www.instagram.com'
+        },
+        {
+            id:2,
+            icon : FaTwitter,
+            link: 'www.instagram.com'
+        },
+        {
+            id:3,
+            icon : FaInstagram,
+            link: 'www.instagram.com'
+        },
+    
+]
+}
 const hero ={
     title: 'NI2ME ERRAND SERVICES',
     subtitle:'No man is an errand! kama uko busy, Nitume.',
@@ -14,13 +60,14 @@ const about ={
     text:'Welcome to our errand services website! We are a dedicated team of professionals committed to making your life easier by taking care of your errands. With our expertise in running errands, you can trust us to handle all of your needs with the utmost care and attention to detail. We offer a wide range of errand services, including grocery shopping, pet care, house cleaning, laundry, and much more. Our mission is to save you time and hassle, allowing you to focus on the things that matter most to you. Contact us today to learn more about how we can help you!'
 }
 
-const Services = {
+const services = {
     title: 'Our services',
     subtitle: 'what we Offer',
     contents:[
         {
             id:1,
             title: 'Grocery Shopping',
+            image: 'https://cdn-icons-png.flaticon.com/128/9709/9709605.png'
 
         },
         {
@@ -70,10 +117,10 @@ const Services = {
         },
     ]
 }
-const Testimonials ={
+const testimonials ={
     title: 'Testimonials',
-    subtitle: 'What they say.',
-    content:[
+    subtitle: 'What they say',
+    contents:[
         {
             id:1,
             name: 'Faith Mutio',
@@ -91,10 +138,84 @@ const Testimonials ={
         },
     ]
 }
+const frequentsQ ={
+    title: "FAQ's",
+    subtitle: 'some of the frequently asked questions',
+    questions:[
+        {
+            id:1,
+            question:"What is an errand service, and what kind of errands do you run?",
+            answer: " An errand service is a company that provides assistance to people who are too busy to complete their errands themselves. Errands may include grocery shopping, package delivery, picking up dry cleaning, and other tasks that busy people may not have time for."
+        },
+        {
+            id:1,
+            question:"What is an errand service, and what kind of errands do you run?",
+            answer: " An errand service is a company that provides assistance to people who are too busy to complete their errands themselves. Errands may include grocery shopping, package delivery, picking up dry cleaning, and other tasks that busy people may not have time for."
+        },
+        {
+            id:2,
+            question:"How much do your services cost?",
+            answer: " The cost of our services depends on the type and complexity of the errand. We offer customized pricing plans for our clients based on their specific needs."
+        },
+        {
+            id:3,
+            question:"How do I schedule an errand?",
+            answer: " You can schedule an errand by contacting us through phone, email, or our website. We will work with you to arrange a convenient time and date for the errand."
+        },
+        {
+            id:4,
+            question:"Do you offer same-day service?",
+            answer: " Yes, we offer same-day service for most errands. However, we recommend contacting us in advance to ensure availability."
+        },
+        {
+            id:5,
+            question:"Are your employees insured and bonded?",
+            answer: " Yes, all our employees are insured and bonded to protect you and your property during the errand"
 
-const Contacts = {
+            
+        },
+        {
+            id:6,
+            question:"What is your cancellation policy?",
+            answer: "We have a flexible cancellation policy that allows you to cancel or reschedule an errand at no charge up to 24 hours before the scheduled time. If you cancel within 24 hours of the scheduled time, a cancellation fee may apply."
+        },
+        {
+            id:7,
+            question:"How do I pay for your services?",
+            answer: "We accept various forms of payment, including cash, credit card, and online payment methods. Payment is typically due at the time of service, although we may offer billing options for regular clients."
+        },
+        
+    ]
+}
+const contacts = {
     title: 'Get in touch',
-    subTitle: "Let's collaborate"
+    subtitle: "Let's collaborate",
+    socialIcons:[
+        {
+            id:1,
+            name:'Whatsapp',
+            icon : FaWhatsapp,
+            link: 'www.instagram.com'
+        },
+        {
+            id:2,
+            name:'Twitter',
+            icon : FaTwitter,
+            link: 'www.instagram.com'
+        },
+        {
+            id:3,
+            name:'Instagram',
+            icon : FaInstagram,
+            link: 'www.instagram.com'
+        },
+        {
+            id:4,
+            name:'Email',
+            icon : FaEnvelope,
+            link: 'www.instagram.com'
+        },
+    ]
 }
 
-export {hero, about, Services, Testimonials, Contacts }
+export {navbar, hero, about, services, testimonials,frequentsQ, contacts }
